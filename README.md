@@ -100,8 +100,8 @@ $ bash progress.sh ユーザーフォルダパス
 (例： $ bash progress.sh sample_CL_001 )  
 学習状況がprogress.txtに出力されるが"progressPercentage": 100 となれば完了  
 （コマンドラインメッセージ）  
-  > complete  学習完了  
-  > Please wait while learning ...  学習中  
+  complete  学習完了  
+  Please wait while learning ...  学習中  
 
 
 6. デプロイ  
@@ -144,8 +144,8 @@ $ bash delete_dataset.sh ユーザーフォルダパス
 検索方法
  dataset検索
  $ python automl_vision_dataset.py list_datasets ''
-   ＞dataset一覧が出力
+   dataset一覧が出力
 
  model検索
  $ python automl_vision_model.py list_models ''
-   ＞model一覧が出力(deploy情報も出力されている)
+  model一覧が出力(deploy情報も出力されている)
