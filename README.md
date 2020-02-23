@@ -27,8 +27,7 @@
 # 環境
 1. 運用サーバーへの環境変数登録
  - サービスアカウントキー.jsonを任意の場所へ
- - 環境変数へ登録(.bashrcなど)
-   # GOOGLE CLOUD PLATFORM  
+ - 環境変数へ登録(.bashrcなど)    
    export GOOGLE_APPLICATION_CREDENTIALS=任意の場所/サービスアカウントキー.json  
    export PROJECT_ID="プロジェクトID"  
                           (例:プロジェクト名-***)  
