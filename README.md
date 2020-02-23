@@ -121,9 +121,9 @@ $ bash progress.sh ユーザーフォルダパス
        sample_DT_001/progress_deploy_sample-project-1-255401.json オペレーションIDのみ残す(特に意味はない)  
  
 
-8. 推論
-$ bash predict.sh ユーザーフォルダパス 推論画像パス
-(例： $ bash predict.sh sample_CL_001 resources/test.jpg)
+8. 推論  
+$ bash predict.sh ユーザーフォルダパス 推論画像パス  
+(例： $ bash predict.sh sample_CL_001 resources/test.jpg)  
 
 
 # 推論完了後すぐにアンデプロイ実行しないと課金が続く(ノードを立てているだけ課金)
