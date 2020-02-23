@@ -98,7 +98,7 @@ $USER_NAME/operation_id_$PROJECT_ID.txtへオペレーションIDを出力
 5. 学習の進捗確認  
 $ bash progress.sh ユーザーフォルダパス  
 (例： $ bash progress.sh sample_CL_001 )  
-> 学習状況がprogress.txtに出力されるが"progressPercentage": 100 となれば完了  
+学習状況がprogress.txtに出力されるが"progressPercentage": 100 となれば完了  
 （コマンドラインメッセージ）  
   > complete  学習完了  
   > Please wait while learning ...  学習中  
@@ -106,18 +106,18 @@ $ bash progress.sh ユーザーフォルダパス
 
 6. デプロイ  
    $ bash deploy.sh sample_DT_001  
-     > sample_DT_001/deploy_output.txt  へオペレーションIDが出力される  
+     sample_DT_001/deploy_output.txt  へオペレーションIDが出力される  
      ** デプロイノード数(クラスタの箱用意がデプロイでノードがインスタンスのイメージ)  
         は、1ノードは最低建てないといけないみたい。(インスタンス建てる == 課金開始)  
 
 7. デプロイ進捗確認  
    $ bash progress_deploy.sh sample_DT_001  
       (デプロイ中)   
-       > Please wait while learning ...  
+       Please wait while learning ...  
        sample_DT_001/progress_deploy_sample-project-1-255401.json  進捗表示  
        
      (デプロイ完了)
-       > complete True  
+       complete True  
        sample_DT_001/progress_deploy_sample-project-1-255401.json オペレーションIDのみ残す(特に意味はない)  
  
 
