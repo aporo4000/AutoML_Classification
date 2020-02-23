@@ -30,10 +30,9 @@
  - 環境変数へ登録(.bashrcなど)    
    export GOOGLE_APPLICATION_CREDENTIALS=任意の場所/サービスアカウントキー.json  
    export PROJECT_ID="プロジェクトID"  
-                          (例:プロジェクト名-***)  
    export REGION_NAME="us-central1"  << このリージョン名は固定  
    export SERVICE_ACCOUNT="サービスアカウント名"  
-                          (例:*****@*****.iam.gserviceaccount.com)  
+                          (例:●●●@●●●.iam.gserviceaccount.com)  
  - パス通す(以下実行)  
    $ source .bashrc      
 
