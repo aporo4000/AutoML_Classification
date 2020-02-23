@@ -127,25 +127,25 @@ $ bash predict.sh ユーザーフォルダパス 推論画像パス
 
 
 # 推論完了後すぐにアンデプロイ実行しないと課金が続く(ノードを立てているだけ課金)
-9. アンデプロイ
-   $ bash undeploy.sh sample_DT_001
+9. アンデプロイ  
+   $ bash undeploy.sh sample_DT_001  
 
 
-10. モデルを削除
-$ bash remove_model.sh ユーザーフォルダパス
-(例： $ bash remove_model.sh sample_CL_001)
+10. モデルを削除  
+$ bash remove_model.sh ユーザーフォルダパス  
+(例： $ bash remove_model.sh sample_CL_001)  
 
 
-11. データセットを削除
-$ bash delete_dataset.sh ユーザーフォルダパス
-(例： $ bash delete_dataset.sh sample_CL_001)
+11. データセットを削除  
+$ bash delete_dataset.sh ユーザーフォルダパス  
+(例： $ bash delete_dataset.sh sample_CL_001)  
 
 
-検索方法
- dataset検索
- $ python automl_vision_dataset.py list_datasets ''
-   dataset一覧が出力
+検索方法  
+ dataset検索  
+ $ python automl_vision_dataset.py list_datasets ''  
+   dataset一覧が出力  
 
- model検索
- $ python automl_vision_model.py list_models ''
-  model一覧が出力(deploy情報も出力されている)
+ model検索  
+ $ python automl_vision_model.py list_models ''  
+  model一覧が出力(deploy情報も出力されている)  
